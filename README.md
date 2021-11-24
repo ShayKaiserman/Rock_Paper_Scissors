@@ -38,6 +38,5 @@ Comment: you can notice that this method we can't recognize the fourth option ("
 * As already been said, we train the data by 4 catagories - rock, paper, scissors and None.
 **Important Note - The MobileNet input image size is defined, therefore we need to resize the images and make sure there are 3 channels.**
 ### Step 3:
-Now we have saved model that predict for each given image what is the player move.
+Now we have saved a model that predict for each given image what is the player move.
 All we need to do is to react to this move accordingly.
-* Use Convex Hull method and find defects between the hull and the contour. This defects are the spaces between the fingers, and thats how we can count fingers.
